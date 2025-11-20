@@ -1,0 +1,16 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TestingDemo {
+
+    public static void main(String[] args) {
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://www.google.co.in");
+        System.out.println(driver.getCurrentUrl());
+        System.out.println(driver.getTitle());
+        System.out.println("123456");
+
+        System.out.println("Hello World");
+        System.out.println("Hello World is beautiful");
+    }
+}
