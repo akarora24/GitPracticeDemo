@@ -15,5 +15,8 @@ public class TestingDemo {
 
         System.out.println("Hello World");
         System.out.println("Hello World is beautiful");
+
+        System.out.println("Hello World");
+        System.out.println("Hello World is beautiful");
     }
 }
